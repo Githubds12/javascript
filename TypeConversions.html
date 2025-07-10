@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Type Conversions in JavaScript</title>
+</head>
+<body>
+    <h1>JavaScript Type Conversions</h1>
+    <p>Open the console to see type conversion examples.</p>
+    <script>
+        // Example: String to Number
+        let str = "123";
+        let num = Number(str);
+        console.log(`String "${str}" converted to Number:`, num);
+
+        // Example: Number to String
+        let n = 456;
+        let s = String(n);
+        console.log(`Number ${n} converted to String:`, s);
+
+        // Example: Boolean to String
+        let bool = false;
+        let boolStr = String(bool);
+        console.log(`Boolean ${bool} converted to String:`, boolStr);
+
+        // Example: String to Boolean
+        let strBool = "true";
+        let boolVal = Boolean(strBool);
+        console.log(`String "${strBool}" converted to Boolean:`, boolVal);
+
+        // Example: Automatic type conversion
+        let result = "5" * 2;
+        console.log(`"5" * 2 =`, result);
+    </script>
+</body>
+</html>
