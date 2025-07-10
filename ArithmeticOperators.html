@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    
+</head>
+<body>
+    <script>
+        // Your JavaScript code goes here
+        // Basic Arithmetic Operations
+        const x = 12;
+        const y = 3;
+
+        // Additiom
+        console.log(x + y); // Outputs: 15
+
+        // Subtraction
+        console.log(x - y) // Outputs: 9
+
+        // Multiplication
+        console.log(x*y); // Outputs: 36
+
+        // Division
+        console.log(x / y); //Outputs: 4
+
+        // Exponentiation
+        console.log(x ** 2); //Outputs: 144
+        console.log(y ** 3); //Outputs: 27
+
+        // Type Conversion with Operators
+
+        // Adding String and Numbers
+
+        const a = "12";
+        const b = "3";
+        console.log(a+b); //Outputs: "123"
+
+        //Other Operations with Strings and Numbers
+        // For subtraction, multiplication, and division, Javascript converts to string to number if possible.
+        console.log(a-b); //Outputs: 9
+        console.log(a*b); //Outputs: 36
+        console.log(a/b); //Outputs: 4
+
+        // Mixing types
+        // When one operand is a number and the other is a string
+        const m = 12;
+        const n= "3";
+        console.log(m+n); //Outputs: "123"
+        console.log(m-n); //Outputs: 9
+        console.log(m*n); //Outputs: 36        
+        console.log(m/n); //Outputs: 4
+
+        // Handling Non-numeric Strings
+        const str1 = "Hello";
+        const str2 = "World";
+        console.log(str1 + str2); //Outputs: "HelloWorld"
+        console.log(str1 - str2); //Outputs: NaN (Not a Number)
+        console.log(str1 * str2); //Outputs: NaN (Not a Number)
+        console.log(str1 / str2); //Outputs: NaN (Not a Number)
+
+        // Best Practices
+        // Suppose you are taking input from a user and want to perform arithmetic operations.
+        const userInput = "5"; // Simulating user input as a string
+        const numberInput = Number(userInput); // Convert to number
+
+        if (!isNaN(numberInput)) {
+            console.log(numberInput + 10); // Outputs: 15
+        } else {
+            console.log("Invalid input, please enter a number.");
+        }
+        
+        </script>
+</body>
+</html>
