@@ -22,3 +22,7 @@ const grade = score > 90 ? 'A' :
             score > 60 ? 'D' : 'F';
 
 console.log(`Your grade is: ${grade}`);
+
+const totalMarks = 60;
+
+console.log(totalMarks < 40 ? "You need to work hard." : "You cleared the exam.");
